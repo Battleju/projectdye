@@ -21,9 +21,11 @@ public class MenuState extends State{
 
     private Texture background;
     private Stage stage;
+    private final GameStateControl gsc;
 
     public MenuState(GameStateControl gsc){
         super(gsc);
+        this.gsc = gsc;
         cam.setToOrtho(false, ProjectDye.WIDTH, ProjectDye.HEIGHT);
         background = new Texture("bg.png");
         stage = new Stage(new FitViewport(ProjectDye.WIDTH, ProjectDye.HEIGHT));
