@@ -18,7 +18,7 @@ public class ProjectDye extends ApplicationAdapter {
 
 	//Physical Constants
 	public static final float frictionNumberGround = 0.2f;
-	public static final float frictionNumberAir = 0.01f;	// du bastard
+	public static final float frictionNumberAir = 0.01f;
 	public static final float gravity = 2.00f;
 
 	private SpriteBatch batch;
