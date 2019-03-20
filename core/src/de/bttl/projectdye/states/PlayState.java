@@ -16,7 +16,7 @@ public class PlayState extends State{
     private final GameStateControl gsc;
     private TestMap testMap;
 
-    public PlayState(GameStateControl gsc) {
+    public PlayState(final GameStateControl gsc) {
         super(gsc);
         this.gsc = gsc;
         cam.setToOrtho(false, ProjectDye.WIDTH, ProjectDye.HEIGHT);

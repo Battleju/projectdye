@@ -17,7 +17,7 @@ public class CenterState extends State{
 
     private Stage stage;
 
-    protected CenterState(GameStateControl gsc) {
+    protected CenterState(final GameStateControl gsc) {
         super(gsc);
         cam.setToOrtho(false, ProjectDye.WIDTH, ProjectDye.HEIGHT);
         stage = new Stage(new FitViewport(ProjectDye.WIDTH, ProjectDye.HEIGHT));

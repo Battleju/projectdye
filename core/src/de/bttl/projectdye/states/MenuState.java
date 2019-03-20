@@ -23,7 +23,7 @@ public class MenuState extends State{
     private Stage stage;
     private final GameStateControl gsc;
 
-    public MenuState(GameStateControl gsc){
+    public MenuState(final GameStateControl gsc){
         super(gsc);
         this.gsc = gsc;
         cam.setToOrtho(false, ProjectDye.WIDTH, ProjectDye.HEIGHT);
